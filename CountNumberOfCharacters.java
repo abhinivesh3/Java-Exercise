@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class CountNumberOfCharacter{
+public class CountNumberOfCharacters{
     public static void main(String[] arg){
         InputStreamReader inputStreamReader = new InputStreamReader(System.in);
         BufferedReader reader = new BufferedReader(inputStreamReader);
@@ -13,9 +13,7 @@ public class CountNumberOfCharacter{
             int character;
             while((character=reader.read())!=-1){
                 count++;
-                System.out.println(character+" ");
             }
-            
         }
         catch(IOException e){
             System.out.println("Error "+e);
