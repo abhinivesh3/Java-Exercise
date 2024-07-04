@@ -1,4 +1,4 @@
-//Write a program to accept a filename and print the contents of the file along with the line numbers. Also catch the required exceptions.
+// Write a program to accept a filename and print the contents of the file along with the line numbers. Also catch the required exceptions.
 
 import java.io.FileInputStream;
 import java.io.IOException;
