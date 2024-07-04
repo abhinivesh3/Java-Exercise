@@ -1,5 +1,5 @@
-//Write a program to count the numbers of characters entered through stdin. The program exits upon entering Ctrl+Z
-//in mac ctrl+D
+// Write a program to count the numbers of characters entered through stdin. The program exits upon entering Ctrl+Z
+// in mac ctrl+D
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
