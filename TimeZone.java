@@ -1,5 +1,5 @@
-//Write a program to print todays date in the format Day MMM DD hr.min.sec TIMEZONE YYYY [Ex: Fri Aug 01 16:16:27 IST 2008] using date format .
-//Use SimpleDateFormat class to format the date to specified format.
+// Write a program to print todays date in the format Day MMM DD hr.min.sec TIMEZONE YYYY [Ex: Fri Aug 01 16:16:27 IST 2008] using date format .
+// Use SimpleDateFormat class to format the date to specified format.
 
 import java.util.Date;
 import java.text.SimpleDateFormat;
