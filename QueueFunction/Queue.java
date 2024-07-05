@@ -1,14 +1,4 @@
 package QueueFunction;
-// Implement a Queue.
-// [TIP] Extend Vector and add additional methods to perform enqueue and dequeue.
-// Display a menu like below and allow user to perform enqueue and dequeue.
-//     1.Enqueue
-//     2.Dequeue
-//     3.List
-// Enter your Choice:
-
-
-import java.util.Scanner;
 
 public class Queue {
     int size=5;

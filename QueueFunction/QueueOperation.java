@@ -1,3 +1,11 @@
+// Implement a Queue.
+// [TIP] Extend Vector and add additional methods to perform enqueue and dequeue.
+// Display a menu like below and allow user to perform enqueue and dequeue.
+//     1.Enqueue
+//     2.Dequeue
+//     3.List
+// Enter your Choice:
+
 package QueueFunction;
 
 import java.util.Scanner;
@@ -32,6 +40,7 @@ public class QueueOperation {
                     flag=false;
                     break;
                 default:
+                    System.out.println("Invalid choice. Please enter a number between 1 and 4.");
                     break;
             }
 
