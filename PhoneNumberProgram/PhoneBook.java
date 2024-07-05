@@ -1,3 +1,15 @@
+// Write an application for storing phone numbers(Like a phone book).
+// User must be given options to add, search and delete records. Output should look like the menu below.
+// Add numbers
+// Delete numbers
+// List all
+// Search
+//       Enter Your Choice:
+// For Add numbers option, name and number must be the input. For deleting and searching, name alone is sufficient. If the user selects List all option, all the numbers must be listed.
+// The contents must be stored in a file and the file must be read on init of the application.
+// Hashtable or Properties can be used to store the data. Key must be name of the person(no duplicates)
+// Consider using autoboxing in case you used Hashtable for storing data.
+
 package PhoneNumberProgram;
 
 import java.util.Scanner;

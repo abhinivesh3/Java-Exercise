@@ -19,6 +19,10 @@ public class PhoneNumberOperation {
     }
     
     public void addNumber(String name,String number){
+        if(number.length()<10 || number.length()>10){
+            System.out.println("Number must be 10 digits !!!");
+            System.exit(1);
+        }
         phoneBook.put(name, number);
         writeToFile();
         System.out.println(name + "'s number added successfully.");
